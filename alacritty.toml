@@ -1,0 +1,55 @@
+# theme file 
+import = [
+  	"~/.config/alacritty/alacritty-theme/themes/dark_pride.toml"
+  ]
+
+shell = { program = "/usr/bin/tmux", args = [] }
+
+#working_directory = "/home/brownbread/"
+
+#env = {}
+
+# window = { opacity = 0.6, blur = true }
+
+#scrolling = { multiplier = 4 }
+
+[font]
+#normal = { family = "FantasqueSansM Nerd Font Mono", style = "Regular" }  
+#size = 14
+#offset = { y = 5 }
+
+[keyboard]
+bindings = [
+	# { key = "N", mods = "Control", action = "CreateNewWindow" },
+	# { key = "W", mods = "Control", action = "Quit" },
+]
+
+# [window]
+# opacity = 0.84
+
+# #default colors
+# [colors.primary]
+# background = '#1d2021'
+# foreground = '#fbf1c7'
+#
+# #normal colors
+# [colors.normal]
+# black = '#3c3836'  # bg1
+# red = '#fb4934'
+# green = '#b8bb26'
+# blue = '#83a598'
+# white = '#ebdbb2' # fg1
+# yellow = '#fabd2f'
+# magenta = '#fe8019' #orange
+# cyan = '#a4c6b9' # blue-lighter
+#
+# #bright colors
+# [colors.bright]
+# black = '#3c3836'  # bg1
+# red = '#fb4934'
+# green = '#b8bb26'
+# blue = '#83a598'
+# white = '#ebdbb2' # fg1
+# yellow = '#fabd2f'
+# magenta = '#fe8019' #orange
+# cyan = '#a4c6b9' # blue-lighter
