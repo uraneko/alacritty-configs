@@ -1,9 +1,9 @@
 # theme file 
 import = [
-  	"~/.config/alacritty/alacritty-theme/themes/dark_pride.toml"
+  	"~/.config/alacritty/alacritty-theme/themes/catppuccin_mocha.toml"
   ]
 
-shell = { program = "/usr/bin/tmux", args = [] }
+shell = { program = "/usr/bin/tmux", args = ["-u"] }
 
 #working_directory = "/home/brownbread/"
 
@@ -14,9 +14,9 @@ shell = { program = "/usr/bin/tmux", args = [] }
 #scrolling = { multiplier = 4 }
 
 [font]
-#normal = { family = "FantasqueSansM Nerd Font Mono", style = "Regular" }  
-#size = 14
-#offset = { y = 5 }
+# normal = { family = "Noto Serif Tangut", style = "Regular" }  
+# size = 12
+# offset = { y = 5, x = 3 }
 
 [keyboard]
 bindings = [
