@@ -1,9 +1,7 @@
 # theme file 
-import = [
-  	"~/.config/alacritty/alacritty-theme/themes/catppuccin_mocha.toml"
-  ]
+general.import = ["alacritty-theme/themes/kimbie_dark.toml"]
 
-shell = { program = "/usr/bin/tmux", args = ["-u"] }
+terminal.shell = { program = "/usr/bin/tmux", args = ["-u"] }
 
 #working_directory = "/home/brownbread/"
 
@@ -20,8 +18,9 @@ shell = { program = "/usr/bin/tmux", args = ["-u"] }
 
 [keyboard]
 bindings = [
-	# { key = "N", mods = "Control", action = "CreateNewWindow" },
+	{ key = "Backspace", mods = "Control|Shift", chars = "🍔" },
 	# { key = "W", mods = "Control", action = "Quit" },
+	{ key = "Enter", mods = "Control|Shift", chars = "🍜" },
 ]
 
 # [window]
