@@ -1,5 +1,5 @@
 # theme file 
-general.import = ["alacritty-theme/themes/kimbie_dark.toml"]
+general.import = ["alacritty-theme/themes/ayu_dark.toml"]
 
 terminal.shell = { program = "/usr/bin/tmux", args = ["-u"] }
 
@@ -18,9 +18,15 @@ terminal.shell = { program = "/usr/bin/tmux", args = ["-u"] }
 
 [keyboard]
 bindings = [
+	# the burger key
 	{ key = "Backspace", mods = "Control|Shift", chars = "🍔" },
 	# { key = "W", mods = "Control", action = "Quit" },
+	# the ramen key
 	{ key = "Enter", mods = "Control|Shift", chars = "🍜" },
+	# not-fried chicken key
+	{ key = ">", mods = "Control|Shift", chars = "🐔" },
+	# add another vim mod key binding
+	{ key = "V", mods = "Control", action = "ToggleViMode" },
 ]
 
 # [window]
